@@ -286,12 +286,16 @@ text-decoration: underline;
 
 
 .btnRow{
-      padding: 0;
+      padding: .5rem 0 .5rem 0;
   }
+  .btns{
+    padding: 0; 
+  }
+  
 .deck{
       height: 65vh;
       flex-direction: column;
-  justify-content: space-around;
+      justify-content: space-around;
       align-items: center;
       padding: 0;
       border: 0px solid white;
