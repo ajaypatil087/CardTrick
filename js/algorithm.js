@@ -213,7 +213,7 @@ $(document).ready(function(){
     function instructions(){
         if(clicks == 1){
             if(400 < $(window).width() && 700 > $(window).width()){
-                $(".inst2 .p").text("Tap once again the row where the Card is present");
+                $(".inst2 .p").text("Once again tap on the row where the Card is present");
             }
             $(".inst1").fadeOut(10);
             $(".inst2").fadeIn(10);
@@ -295,7 +295,7 @@ $(document).ready(function(){
                 marginLeft: "-100%",
                 display: "none"},
                 {
-                    duration: 2500
+                    duration: 2000
                 });
         }
         link = "images/cards/"+card[10]+".png";
@@ -315,7 +315,7 @@ $(document).ready(function(){
 
 
     //function to calculate number of visitors
-    function visitors(){
+    /*function visitors(){
         var xhttp;
         xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
@@ -330,7 +330,7 @@ $(document).ready(function(){
         };
         xhttp.open("GET", "js/visited.php", true);
         xhttp.send(); 
-    }
+    }*/
 
     //visitors();
 
