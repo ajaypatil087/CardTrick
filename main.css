@@ -290,7 +290,7 @@ text-decoration: underline;
   }
   .btns{
     padding: 0 .5rem;
-    margin: 0;
+    margin-left: 5px;
   }
   
 .deck{
