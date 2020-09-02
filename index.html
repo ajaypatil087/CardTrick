@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CARD TRICK</title>
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+      <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+   </head>
+   <body>
+      <header class="header">
+         <img src="images/logo1.png" alt="logo">
+      </header>
+      <section class="btnRow">
+         <div class="btns shuffle" title="Click to shuffle the cards">SHUFFLE</div>
+         <div class="btns replay" title="Click to restart">REPLAY</div>
+         <div class="btns instructionBtn">Intructions</div>
+         <div class="btns about" title="About">About</div>
+      </section>
+      <section class="aboutDes text-center text-light">
+         <span class="closeBtn" title="Close">&times;</span>
+         <p>
+            Its an simple card trick turned into an application.<br>
+            <span class="blockquote-footer text-light font-italic font-weight-bold p-5">DEVELOPED BY AJAY PATIL</span>
+         </p>
+      </section>
+      
+      <section class="instructionBody text-light">
+         <section class="instructions">
+            <span class="closeInstruction">&times;</span>
+            <span class="instLogo">
+               INSTRUCTIONS
+            </span></br>
+            <ol>
+               <li>There Are 3 <span class="columns">Columns</span> Each consisting of 7 cards keep any one of the card into your mind</li>
+               <li><span class="clicks">Click</span> on that <span class="columns">column</span> where the card which is in your mind is present</li>
+               <li>Once again <span class="clicks">Click</span> on that <span class="columns">column</span> where the card which is in your mind is present</li>
+               <li>Do the same For 3rd and last time</li>
+               <li>There You get that Card which in your Mind</li>
+            </ol>
+            <span>Press Shuffle Button to shuffle the cards</span>
+            <span>Press REPLAY to Restart</span>
+         </section>
+      </section>
+      <main class="deck">
+         <section class="column1">
+
+         </section>
+         <section class="column2">
+
+         </section>
+         <section class="column3">
+
+         </section>
+         <section class="result">
+
+         </section>
+      </main>
+      <footer class="inst text-light">
+         <span class="p-2 p"><i class="fas fa-info-circle"></i></span>
+         <section class="inst1"> 
+            <span class="p">Choose any Card, Keep it in your mind and click on that column where that card is present</span>
+         </section>
+         <section class="inst2"> 
+            <span class="p">Click once again the column where the card is present</span>
+         </section>
+         <section class="inst3"> 
+            <span class="p">You're almost done click one last time the column where the card is present for one last time</span>
+         </section>
+      </footer>
+      <section class="inst4 text-light text-center">
+         <span class="p"><span class="p-2 p"><i class="fas fa-info-circle"></i></span>This is The card which was in your Mind</span>
+      </section>
+      <script src="lib/jQuery.js"></script>
+      <script src="lib/bootstrap/js/popper.js"></script>
+      <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+      <script src="js/algorithm.js"></script>
+   </body>
+</html>
