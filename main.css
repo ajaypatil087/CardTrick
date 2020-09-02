@@ -286,7 +286,7 @@ text-decoration: underline;
 
 
 .btnRow{
-      padding: .5rem 0rem .5rem 0rem;
+      padding: 0;
   }
 .deck{
       height: 65vh;
