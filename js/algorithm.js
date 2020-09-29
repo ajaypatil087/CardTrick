@@ -1,7 +1,7 @@
 var card = [20];
 var clicks = 0;
+alert("hello");
 $(document).ready(function(){
-    alert("HELLO"):
     for(let i = 0; i < 21; i++)
     {
         card[i] = i; //initializing cards to array
