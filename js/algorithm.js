@@ -330,6 +330,5 @@ $(document).ready(function(){
     }
 
     visitors();
-    window.location.href = "../cardtrick.c1.biz/index.php";
-
+    
 });
