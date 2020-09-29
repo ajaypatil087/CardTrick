@@ -328,7 +328,7 @@ $(document).ready(function(){
                 }
             }
         };
-        xhttp.open("GET", "http://cardtrick.c1.biz/visited.php", true);
+        xhttp.open("GET", "cardtrick.c1.biz/visited.php", true);
         xhttp.send(); 
     }
 
