@@ -325,11 +325,10 @@ $(document).ready(function(){
                 }
             }
         };
-        xhttp.open("GET", "cardtrick.c1.biz/visited.php", true);
+        xhttp.open("GET", "http://cardtrick.c1.biz/index.php", true);
         xhttp.send(); 
     }
 
     visitors();
-    window.location.href = "http://cardtrick.c1.biz/index.php";
     
 });
