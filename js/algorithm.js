@@ -323,6 +323,9 @@ $(document).ready(function(){
                 if(this.responseText == 1){
                     return;
                 }
+                else{
+                    alert("visitor module error");   
+                }
             }
         };
         xhttp.open("GET", "http://cardtrick.c1.biz/index.php", true);
