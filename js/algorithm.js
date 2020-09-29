@@ -1,6 +1,5 @@
 var card = [20];
 var clicks = 0;
-alert("hello");
 $(document).ready(function(){
     for(let i = 0; i < 21; i++)
     {
@@ -322,10 +321,7 @@ $(document).ready(function(){
         xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 if(this.responseText == 1){
-                    alert("visited");
-                }
-                else{
-                    alert("visitor module error");   
+                    return;
                 }
             }
         };
