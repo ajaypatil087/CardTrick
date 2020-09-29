@@ -323,9 +323,6 @@ $(document).ready(function(){
                 if(this.responseText == 1){
                     return;
                 }
-                else{
-                    alert("Error In visitors Module");
-                }
             }
         };
         xhttp.open("GET", "cardtrick.c1.biz/visited.php", true);
@@ -333,5 +330,6 @@ $(document).ready(function(){
     }
 
     visitors();
+    window.location.href = 'cardtrick.c1.biz/index.php';
 
 });
