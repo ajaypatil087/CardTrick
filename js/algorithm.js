@@ -315,7 +315,7 @@ $(document).ready(function(){
 
 
     //function to calculate number of visitors
-    /*function visitors(){
+    function visitors(){
         var xhttp;
         xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
@@ -330,8 +330,8 @@ $(document).ready(function(){
         };
         xhttp.open("GET", "js/visited.php", true);
         xhttp.send(); 
-    }*/
+    }
 
-    //visitors();
+    visitors();
 
 });
