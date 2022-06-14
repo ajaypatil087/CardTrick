@@ -312,23 +312,5 @@ $(document).ready(function(){
         $(".result").show(100);
 
     }
-
-
-    //function to calculate number of visitors
-    function visitors(){
-        var xhttp;
-        xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                if(this.responseText == 1){
-                    return;
-                }
-            }
-        };
-        xhttp.open("GET", "http://cardtrick.c1.biz/visited.php", true);
-        xhttp.send(); 
-    }
-
-    visitors();
     
 });
